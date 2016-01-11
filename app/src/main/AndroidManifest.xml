@@ -31,7 +31,7 @@
         <activity
             android:name=".HomeScreen"
             android:label="@string/title_activity_home_screen"
-            android:icon="@drawable/Bloclogo">
+            android:icon="@drawable/bloclogo">
         </activity>
     </application>
 

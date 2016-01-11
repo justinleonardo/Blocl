@@ -23,7 +23,7 @@
                 android:layout_width="120dp"
                 android:layout_height="140dp"
                 android:id="@+id/imageView"
-                android:foreground="@drawable/Bloclogo"
+                android:foreground="@drawable/bloclogo"
                 android:layout_gravity="center|top"
                 android:layout_marginTop="10dp" />
 
