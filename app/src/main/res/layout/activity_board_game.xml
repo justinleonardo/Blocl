@@ -16,10 +16,10 @@
         android:textSize="5dp" />
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
         android:id="@+id/imageView2"
-        android:background="@drawable/regtriangle"
+        android:background="@drawable/boardPicture"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
