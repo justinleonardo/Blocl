@@ -1,27 +1,26 @@
 package blocl.signscreen;
 
-import android.content.Intent;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class HomeScreen extends AppCompatActivity {
-
-    public static final int XP = 0;
-    public static final int LEVEL = 1;
+public class BoardGame extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_screen);
+        setContentView(R.layout.activity_board_game);
+        //kdraw();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_home_screen, menu);
+        getMenuInflater().inflate(R.menu.menu_board_game, menu);
         return true;
     }
 
@@ -39,9 +38,11 @@ public class HomeScreen extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-
-    public void moveActivity(){
-        startActivity(new Intent(HomeScreen.this, BoardGame.class));
-    }
-
+    
+    /*public void kdraw(){
+        Canvas canvas = new Canvas();
+        Paint paint = new Paint();
+        paint.setColor(Color.RED);
+        canvas.drawRect(100, 100, 100, 100, paint);
+    }*/
 }

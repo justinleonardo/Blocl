@@ -30,8 +30,12 @@
 
         <activity
             android:name=".HomeScreen"
-            android:label="@string/title_activity_home_screen"
-            android:icon="@drawable/bloclogo">
+            android:icon="@drawable/bloclogo"
+            android:label="@string/title_activity_home_screen" >
+        </activity>
+        <activity
+            android:name=".BoardGame"
+            android:label="@string/title_activity_board_game" >
         </activity>
     </application>
 
